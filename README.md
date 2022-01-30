@@ -1,8 +1,6 @@
-# Hashcash JS
+# hashcash-256 JS
 
-[![Build Status](https://travis-ci.org/bfolkens/hashcash-js.svg?branch=master)](https://travis-ci.org/bfolkens/hashcash-js)
-
-A simple npm module to generate a [Hashcash](http://www.hashcash.org) signature with challenge, for those times when you're fighting off the spam.
+experimental sha256 implementation of hashcash
 
 ## Install
 
