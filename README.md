@@ -4,11 +4,11 @@ experimental sha256 implementation of hashcash
 
 ## Install
 
-`npm install hashcash`
+`npm install okyanusoz/hashcash-js`
 
 or
 
-`yarn add hashcash`
+`yarn add okyanusoz/hashcash-js`
 
 ## Usage
 
