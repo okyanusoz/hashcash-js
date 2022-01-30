@@ -22,8 +22,8 @@ export default class Hashcash {
     }).join("")
   }
 
-  static sha1(data) {
-    const alg = crypto.createHash('sha1')
+  static sha256(data) {
+    const alg = crypto.createHash('sha256')
     alg.update(data)
     return alg.digest()
   }
@@ -42,7 +42,7 @@ export default class Hashcash {
   }
 
   static verify(bitLength, challenge) {
-    return this.checkBitmask(bitLength, this.sha1(challenge))
+    return this.checkBitmask(bitLength, this.sha256(challenge))
   }
 
   static generateStamp(bits, data) {
