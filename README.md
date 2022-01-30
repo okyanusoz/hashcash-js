@@ -13,7 +13,7 @@ or
 ## Usage
 
 ```js
-import Hashcash from 'hashcash'
+import Hashcash from 'hashcash-sha256'
 ```
 
 ### Generating a stamp
