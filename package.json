@@ -1,8 +1,7 @@
 {
-  "name": "hashcash",
+  "name": "hashcash-sha256",
   "version": "0.0.4",
   "description": "Hashcash",
-  "author": "Brad Folkens <bfolkens@gmail.com>",
   "dependencies": {
     "lodash": ">=4.17.11",
     "uint1array": "^1.0.6"
