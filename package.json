@@ -39,25 +39,9 @@
     "crypto",
     "security"
   ],
-  "main": "./lib/hashcash.js",
+  "main": "./src/hashcash.js",
   "files": [
     "lib"
   ],
   "license": "MIT",
-  "scripts": {
-    "init": "mkdir lib",
-    "clean": "rm -rf lib",
-    "prebuild": "npm run clean && npm run init",
-    "build": "babel src -d lib",
-    "prepare": "npm run build",
-    "pretest": "npm run build",
-    "test": "mocha --require babel-core/register --colors",
-    "lint": "eslint --ext .js .",
-    "coverage": "nyc --require babel-register mocha"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  }
 }
